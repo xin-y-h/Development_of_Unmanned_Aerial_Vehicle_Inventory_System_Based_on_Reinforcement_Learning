@@ -1,1 +1,50 @@
 
+＊install conda envirment:
+conda create --name env_name python==3.7
+conda activate env_name
+
+＊install instruction：
+conda install numpy
+pip install tensorboardX
+pip install opencv-python
+
+pip install yolov5
+pip install cmake
+pip install apriltag
+pip install scikit-learn
+pip install pyshine
+
+pip install torch
+pip install torchvision
+
+＊Dataset dowmload
+https://drive.google.com/drive/folders/1bjiHvNxJuiKv49cfe7XjaieMN46MDfgo?usp=sharing
+
+下載:
+1.yolo weight : Dataset/yolo/weight
+
+2.PPO weight 放到AC/test資料夾內
+3.AC weight 放到PPO/test資料夾內
+
+
+＊train
+1.安裝所需安裝包
+2.下載資料集RL_train
+3.創建儲存參數的資料夾(weight)以及修改程式存儲路徑
+4.設定程式中yolo呼叫的模型參數路徑
+5.執行train資料夾內程式，ppo2.py or gradient_policy.py
+6.可透過tenserboard觀察訓練過程，結果儲存於run資料夾
+
+
+＊test
+1.下載資料集RL_test
+2.選擇虛擬環境(shelf_dataset_1)或是真實環境(real_dataset)
+3.選擇方法
+   PPO2方法開啟real_test檔案中的test_text.py
+   AC方法開啟real_test檔案中的test.py
+4.設定程式中測試資料集路徑
+5.設定程式中要呼叫的訓練參數路徑
+6.設定程式中yolo呼叫的模型參數路徑
+7.設定結果照片存儲處以及程式存儲路徑
+8.執行修改後的test.py
+
