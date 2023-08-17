@@ -53,9 +53,9 @@ https://drive.google.com/drive/folders/1bjiHvNxJuiKv49cfe7XjaieMN46MDfgo?usp=sha
 7.設定結果照片存儲處以及程式存儲路徑
 8.執行檔案
  虛擬環境
-   PPO2方法開啟test檔案中的test.py
-   AC方法開啟test檔案中的test.py
+   PPO2方法執行test檔案中的test.py
+   AC方法執行test檔案中的test.py
  真實環境
-   PPO2方法開啟real_test檔案中的test_text.py
-   AC方法開啟real_test檔案中的test.py
+   PPO2方法執行real_test檔案中的test_text.py
+   AC方法執行real_test檔案中的test.py
 
